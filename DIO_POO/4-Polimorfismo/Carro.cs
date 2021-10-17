@@ -1,0 +1,12 @@
+using System;
+
+namespace Polimorfismo
+{
+    class Carro : Veiculo
+    {
+        public Carro(string marca, string modelo, string cor)
+        : base(marca, modelo, cor)
+        {
+        }
+    }
+}
