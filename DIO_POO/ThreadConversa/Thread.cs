@@ -8,8 +8,6 @@ namespace ThreadConversa
     {
         public List<Mensagem> Mensagens { get; private set; }
 
-        public int Tamanho { get; private set; }
-
         public Identidade Origem { get; private set; }
 
         public Identidade Destino { get; private set; }
@@ -17,11 +15,6 @@ namespace ThreadConversa
         public Thread ()
         {
             Mensagens = new List<Mensagem>();
-        }
-
-        public void SinconizaThread() 
-        {
-            Console.WriteLine("Sincronizando");
         }
 
         public IEnumerable<Mensagem> AdicionaMensagem (Mensagem mensagem) => AdicionaMensagemNaThread (mensagem);
@@ -40,7 +33,7 @@ namespace ThreadConversa
             var thread = "";
             foreach (var mensagem in Mensagens) 
             {
-                thread = thread + $"{mensagem.Emissor.Nome}: {mensagem.Conteudo}\n";
+                thread = thread + $"{mensagem?.Emissor?.Nome}: {mensagem?.Conteudo}\n";
             }
 
             return thread;

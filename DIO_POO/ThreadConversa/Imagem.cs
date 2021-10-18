@@ -10,8 +10,8 @@ namespace ThreadConversa
         
         public Imagem (byte[] conteudo) : base(conteudo)
         {
-
         }
+
         public Imagem (string id, byte[] conteudo, DateTime datahora, Identidade emissor) : base(id, conteudo, datahora, emissor)
         {
         }  

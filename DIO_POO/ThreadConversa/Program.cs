@@ -24,7 +24,7 @@ namespace ThreadConversa
 
             }
             Mensagem img = new Imagem(CreateByteArray(2));
-            //thread.AdicionaMensagem(img);
+            thread.AdicionaMensagem(img);
 
             Console.WriteLine();
             Console.WriteLine(thread.MostraThread());

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia.caria\\Desktop\\teste\\teste\\ThreadConversa\\Classe.csproj",
+      "projectUniqueName": "C:\\Users\\julia.caria\\Desktop\\teste\\DIO_POO\\ThreadConversa\\Classe.csproj",
       "projectName": "Classe",
-      "projectPath": "C:\\Users\\julia.caria\\Desktop\\teste\\teste\\ThreadConversa\\Classe.csproj",
+      "projectPath": "C:\\Users\\julia.caria\\Desktop\\teste\\DIO_POO\\ThreadConversa\\Classe.csproj",
       "packagesPath": "C:\\Users\\julia.caria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia.caria\\Desktop\\teste\\teste\\ThreadConversa\\obj\\",
+      "outputPath": "C:\\Users\\julia.caria\\Desktop\\teste\\DIO_POO\\ThreadConversa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia.caria\\AppData\\Roaming\\NuGet\\NuGet.Config",

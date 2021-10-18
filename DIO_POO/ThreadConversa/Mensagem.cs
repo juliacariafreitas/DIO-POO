@@ -5,8 +5,6 @@ namespace ThreadConversa
     public abstract class Mensagem
     {
         public virtual Object Conteudo { get; set; }
-
-        public int Tamanho { get; private set; }
         
         public DateTime Datahora { get; private set; }
 
@@ -19,7 +17,6 @@ namespace ThreadConversa
             Console.WriteLine(conteudo);
             this.Id = Guid.NewGuid().ToString();
             this.Conteudo = conteudo;
-            this.Tamanho = (this.Conteudo as string).Length;
             this.Datahora = DateTime.Now;
         }
 
@@ -27,7 +24,6 @@ namespace ThreadConversa
         {
             this.Id = id;
             this.Conteudo = conteudo;
-            this.Tamanho = (this.Conteudo as string).Length;;
             this.Datahora = datahora;
             this.Emissor = emissor;
         }
